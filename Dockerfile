@@ -1,3 +1,6 @@
+# 設定 GOOGLE_ENTRYPOINT 環境變數
+ENV GOOGLE_ENTRYPOINT gunicorn -b 0.0.0.0:8080 app:app
+
 # 使用官方 Python 3.9 映像
 FROM python:3.9
 
