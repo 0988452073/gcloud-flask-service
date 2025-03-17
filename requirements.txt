@@ -1,3 +1,4 @@
 flask
-gunicornopencv-python-headless
+gunicorn
+opencv-python-headless
 ultralytics
